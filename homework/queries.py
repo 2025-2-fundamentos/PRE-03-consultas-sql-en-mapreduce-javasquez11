@@ -3,7 +3,7 @@
 # pylint: disable=broad-exception-raised
 # pylint: disable=import-error
 
-from mapreduce import mapreduce  # type: ignore
+from homework.mapreduce import mapreduce  # type: ignore
 import shutil
 import os
 #
@@ -194,5 +194,5 @@ def run():
         reducer_fn=reducer_query_5,
     )    
 
-if name_ == "_main_":
+if __name__ == "_main_":
   run()
